@@ -15,12 +15,17 @@
 		0D07D3A41DF31A1F001DCDBD /* NavigationBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07D3A21DF31A1F001DCDBD /* NavigationBarController.m */; };
 		0D07D3A51DF31A1F001DCDBD /* NavigationBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D07D3A31DF31A1F001DCDBD /* NavigationBarController.xib */; };
 		0D07D3B01DF322F5001DCDBD /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D07D3AF1DF322F5001DCDBD /* bg3.png */; };
+		0D48DAF11DF53F9B00D08767 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D48DAF01DF53F9B00D08767 /* Images.xcassets */; };
+		0D48DAFA1DF5651C00D08767 /* text.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0D48DAF91DF5651C00D08767 /* text.xml */; };
+		0D48DB001DF56D1500D08767 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D48DAFE1DF56D1500D08767 /* CustomTableViewCell.m */; };
+		0D48DB011DF56D1500D08767 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D48DAFF1DF56D1500D08767 /* CustomTableViewCell.xib */; };
 		0D57953E1DF3C698001E504C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57953C1DF3C698001E504C /* SecondViewController.m */; };
 		0D57953F1DF3C698001E504C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D57953D1DF3C698001E504C /* SecondViewController.xib */; };
-		0DD6CC411DF3E6A4007EC684 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD6CC401DF3E6A4007EC684 /* home.png */; };
-		0DD6CC431DF3E932007EC684 /* home_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD6CC421DF3E932007EC684 /* home_selected.png */; };
-		0DE1B6B11DF474AA00C83B19 /* fovorite_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE1B6B01DF474AA00C83B19 /* fovorite_selected.png */; };
-		0DE1B6B31DF474C500C83B19 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE1B6B21DF474C500C83B19 /* favorite.png */; };
+		0D79C0111DF670D40003EB97 /* HeaderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D79C00F1DF670D40003EB97 /* HeaderViewCell.m */; };
+		0D79C0121DF670D40003EB97 /* HeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D79C0101DF670D40003EB97 /* HeaderViewCell.xib */; };
+		0D80FDD81DF5B32800B3FCE7 /* ShowContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D80FDD61DF5B32800B3FCE7 /* ShowContentViewController.m */; };
+		0D80FDD91DF5B32800B3FCE7 /* ShowContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D80FDD71DF5B32800B3FCE7 /* ShowContentViewController.xib */; };
+		0D80FDDF1DF5BC7000B3FCE7 /* Define.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D80FDDE1DF5BC7000B3FCE7 /* Define.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,13 +42,22 @@
 		0D07D3A21DF31A1F001DCDBD /* NavigationBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarController.m; sourceTree = "<group>"; };
 		0D07D3A31DF31A1F001DCDBD /* NavigationBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBarController.xib; sourceTree = "<group>"; };
 		0D07D3AF1DF322F5001DCDBD /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
+		0D48DAF01DF53F9B00D08767 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0D48DAF91DF5651C00D08767 /* text.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = text.xml; sourceTree = "<group>"; };
+		0D48DAFD1DF56D1500D08767 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		0D48DAFE1DF56D1500D08767 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		0D48DAFF1DF56D1500D08767 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		0D57953B1DF3C698001E504C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0D57953C1DF3C698001E504C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0D57953D1DF3C698001E504C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
-		0DD6CC401DF3E6A4007EC684 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
-		0DD6CC421DF3E932007EC684 /* home_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_selected.png; sourceTree = "<group>"; };
-		0DE1B6B01DF474AA00C83B19 /* fovorite_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fovorite_selected.png; sourceTree = "<group>"; };
-		0DE1B6B21DF474C500C83B19 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		0D79C00E1DF670D40003EB97 /* HeaderViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderViewCell.h; sourceTree = "<group>"; };
+		0D79C00F1DF670D40003EB97 /* HeaderViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderViewCell.m; sourceTree = "<group>"; };
+		0D79C0101DF670D40003EB97 /* HeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderViewCell.xib; sourceTree = "<group>"; };
+		0D80FDD51DF5B32800B3FCE7 /* ShowContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowContentViewController.h; path = ../ShowContentViewController.h; sourceTree = "<group>"; };
+		0D80FDD61DF5B32800B3FCE7 /* ShowContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowContentViewController.m; path = ../ShowContentViewController.m; sourceTree = "<group>"; };
+		0D80FDD71DF5B32800B3FCE7 /* ShowContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShowContentViewController.xib; path = ../ShowContentViewController.xib; sourceTree = "<group>"; };
+		0D80FDDD1DF5BC7000B3FCE7 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		0D80FDDE1DF5BC7000B3FCE7 /* Define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Define.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,21 +90,16 @@
 		0D07D3891DF318ED001DCDBD /* demo_UINavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				0D80FDE01DF5BC7800B3FCE7 /* Constant */,
+				0D48DAFB1DF56C6100D08767 /* Controller */,
 				0D07D3AE1DF322E3001DCDBD /* iamges */,
 				0D07D38D1DF318ED001DCDBD /* AppDelegate.h */,
 				0D07D38E1DF318ED001DCDBD /* AppDelegate.m */,
-				0D07D3A11DF31A1F001DCDBD /* NavigationBarController.h */,
-				0D07D3A21DF31A1F001DCDBD /* NavigationBarController.m */,
-				0D07D3A31DF31A1F001DCDBD /* NavigationBarController.xib */,
 				0D07D3961DF318EE001DCDBD /* Assets.xcassets */,
 				0D07D39B1DF318EE001DCDBD /* Info.plist */,
 				0D07D38A1DF318ED001DCDBD /* Supporting Files */,
-				0D57953B1DF3C698001E504C /* SecondViewController.h */,
-				0D00C7891DF419E400998746 /* ToolBarViewController.h */,
-				0D00C78A1DF419E400998746 /* ToolBarViewController.m */,
-				0D00C78B1DF419E400998746 /* ToolBarViewController.xib */,
-				0D57953C1DF3C698001E504C /* SecondViewController.m */,
-				0D57953D1DF3C698001E504C /* SecondViewController.xib */,
+				0D48DAF01DF53F9B00D08767 /* Images.xcassets */,
+				0D48DAF91DF5651C00D08767 /* text.xml */,
 			);
 			path = demo_UINavigationBar;
 			sourceTree = "<group>";
@@ -106,13 +115,51 @@
 		0D07D3AE1DF322E3001DCDBD /* iamges */ = {
 			isa = PBXGroup;
 			children = (
-				0DE1B6B21DF474C500C83B19 /* favorite.png */,
-				0DE1B6B01DF474AA00C83B19 /* fovorite_selected.png */,
-				0DD6CC421DF3E932007EC684 /* home_selected.png */,
-				0DD6CC401DF3E6A4007EC684 /* home.png */,
 				0D07D3AF1DF322F5001DCDBD /* bg3.png */,
 			);
 			name = iamges;
+			sourceTree = "<group>";
+		};
+		0D48DAFB1DF56C6100D08767 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D48DAFC1DF56CD400D08767 /* custom */,
+				0D07D3A11DF31A1F001DCDBD /* NavigationBarController.h */,
+				0D07D3A21DF31A1F001DCDBD /* NavigationBarController.m */,
+				0D07D3A31DF31A1F001DCDBD /* NavigationBarController.xib */,
+				0D00C7891DF419E400998746 /* ToolBarViewController.h */,
+				0D00C78A1DF419E400998746 /* ToolBarViewController.m */,
+				0D00C78B1DF419E400998746 /* ToolBarViewController.xib */,
+				0D57953B1DF3C698001E504C /* SecondViewController.h */,
+				0D57953C1DF3C698001E504C /* SecondViewController.m */,
+				0D57953D1DF3C698001E504C /* SecondViewController.xib */,
+				0D80FDD51DF5B32800B3FCE7 /* ShowContentViewController.h */,
+				0D80FDD61DF5B32800B3FCE7 /* ShowContentViewController.m */,
+				0D80FDD71DF5B32800B3FCE7 /* ShowContentViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0D48DAFC1DF56CD400D08767 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				0D48DAFD1DF56D1500D08767 /* CustomTableViewCell.h */,
+				0D48DAFE1DF56D1500D08767 /* CustomTableViewCell.m */,
+				0D48DAFF1DF56D1500D08767 /* CustomTableViewCell.xib */,
+				0D79C00E1DF670D40003EB97 /* HeaderViewCell.h */,
+				0D79C00F1DF670D40003EB97 /* HeaderViewCell.m */,
+				0D79C0101DF670D40003EB97 /* HeaderViewCell.xib */,
+			);
+			name = custom;
+			sourceTree = "<group>";
+		};
+		0D80FDE01DF5BC7800B3FCE7 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0D80FDDD1DF5BC7000B3FCE7 /* Define.h */,
+				0D80FDDE1DF5BC7000B3FCE7 /* Define.m */,
+			);
+			name = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,14 +222,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D57953F1DF3C698001E504C /* SecondViewController.xib in Resources */,
-				0DD6CC411DF3E6A4007EC684 /* home.png in Resources */,
-				0DE1B6B11DF474AA00C83B19 /* fovorite_selected.png in Resources */,
+				0D80FDD91DF5B32800B3FCE7 /* ShowContentViewController.xib in Resources */,
 				0D07D3B01DF322F5001DCDBD /* bg3.png in Resources */,
 				0D07D3971DF318EE001DCDBD /* Assets.xcassets in Resources */,
+				0D48DAFA1DF5651C00D08767 /* text.xml in Resources */,
+				0D48DAF11DF53F9B00D08767 /* Images.xcassets in Resources */,
 				0D07D3A51DF31A1F001DCDBD /* NavigationBarController.xib in Resources */,
+				0D79C0121DF670D40003EB97 /* HeaderViewCell.xib in Resources */,
+				0D48DB011DF56D1500D08767 /* CustomTableViewCell.xib in Resources */,
 				0D00C78D1DF419E400998746 /* ToolBarViewController.xib in Resources */,
-				0DE1B6B31DF474C500C83B19 /* favorite.png in Resources */,
-				0DD6CC431DF3E932007EC684 /* home_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,9 +243,13 @@
 			files = (
 				0D00C78C1DF419E400998746 /* ToolBarViewController.m in Sources */,
 				0D57953E1DF3C698001E504C /* SecondViewController.m in Sources */,
+				0D48DB001DF56D1500D08767 /* CustomTableViewCell.m in Sources */,
 				0D07D38F1DF318ED001DCDBD /* AppDelegate.m in Sources */,
+				0D79C0111DF670D40003EB97 /* HeaderViewCell.m in Sources */,
 				0D07D3A41DF31A1F001DCDBD /* NavigationBarController.m in Sources */,
 				0D07D38C1DF318ED001DCDBD /* main.m in Sources */,
+				0D80FDDF1DF5BC7000B3FCE7 /* Define.m in Sources */,
+				0D80FDD81DF5B32800B3FCE7 /* ShowContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +347,8 @@
 		0D07D39F1DF318EE001DCDBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = QX865SJV3T;
 				INFOPLIST_FILE = demo_UINavigationBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -309,8 +361,8 @@
 		0D07D3A01DF318EE001DCDBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = QX865SJV3T;
 				INFOPLIST_FILE = demo_UINavigationBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

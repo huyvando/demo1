@@ -21,28 +21,16 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bu9-uc-o1Y"/>
-                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="zZ7-JJ-HaQ">
-                    <textInputTraits key="textInputTraits"/>
-                    <connections>
-                        <outlet property="delegate" destination="-1" id="3fv-4a-Hlt"/>
-                    </connections>
-                </searchBar>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="8xo-kS-6PV">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="8xo-kS-6PV">
                     <color key="backgroundColor" red="0.014871510152284273" green="0.014871510152284273" blue="0.014871510152284273" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="separatorColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="separatorInset" minX="15" minY="0.0" maxX="20" maxY="0.0"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="wlL-3k-2xx"/>
                         <outlet property="delegate" destination="-1" id="g4u-VF-mSy"/>
                     </connections>
                 </tableView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxN-y8-60q">
-                    <state key="normal" title="click"/>
-                    <connections>
-                        <action selector="ClickTo:" destination="-1" eventType="touchUpInside" id="Ter-f8-FkT"/>
-                    </connections>
-                </button>
-                <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Olr-sm-iwj">
-                    <frame key="frameInset" height="49"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Olr-sm-iwj">
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <items>
                         <tabBarItem title="" systemItem="favorites" id="S3y-OZ-dxp"/>
@@ -52,22 +40,29 @@
                         <outlet property="delegate" destination="-1" id="igA-1J-8K9"/>
                     </connections>
                 </tabBar>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="zZ7-JJ-HaQ">
+                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="3fv-4a-Hlt"/>
+                    </connections>
+                </searchBar>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="8xo-kS-6PV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="04o-3y-wYx"/>
-                <constraint firstItem="zZ7-JJ-HaQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="6Sq-jw-dVi"/>
+                <constraint firstAttribute="trailing" secondItem="Olr-sm-iwj" secondAttribute="trailing" id="4QD-ez-0gp"/>
+                <constraint firstItem="zZ7-JJ-HaQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="62" id="6Sq-jw-dVi"/>
                 <constraint firstAttribute="bottom" secondItem="Bu9-uc-o1Y" secondAttribute="bottom" id="7Jm-UB-nLa"/>
                 <constraint firstAttribute="trailing" secondItem="8xo-kS-6PV" secondAttribute="trailing" id="94i-dG-fGc"/>
+                <constraint firstAttribute="bottom" secondItem="Olr-sm-iwj" secondAttribute="bottom" id="9w6-fz-l35"/>
                 <constraint firstItem="Bu9-uc-o1Y" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AqC-7v-bOl"/>
-                <constraint firstAttribute="bottom" secondItem="lxN-y8-60q" secondAttribute="bottom" constant="67" id="NcK-9m-UJH"/>
-                <constraint firstItem="8xo-kS-6PV" firstAttribute="top" secondItem="zZ7-JJ-HaQ" secondAttribute="bottom" constant="40" id="P7r-K1-uQD"/>
+                <constraint firstItem="8xo-kS-6PV" firstAttribute="top" secondItem="zZ7-JJ-HaQ" secondAttribute="bottom" constant="10" id="P7r-K1-uQD"/>
                 <constraint firstAttribute="trailing" secondItem="Bu9-uc-o1Y" secondAttribute="trailing" id="S2Z-14-xDh"/>
                 <constraint firstItem="zZ7-JJ-HaQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SKD-Qm-lZK"/>
                 <constraint firstAttribute="trailing" secondItem="zZ7-JJ-HaQ" secondAttribute="trailing" id="Ulb-7v-uHi"/>
-                <constraint firstItem="lxN-y8-60q" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="287" id="huk-zf-Kzz"/>
+                <constraint firstItem="Olr-sm-iwj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="edH-QU-Wrh"/>
+                <constraint firstItem="8xo-kS-6PV" firstAttribute="bottom" secondItem="Olr-sm-iwj" secondAttribute="bottom" id="q79-xA-0KK"/>
                 <constraint firstItem="Bu9-uc-o1Y" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sNB-mw-vHa"/>
-                <constraint firstItem="lxN-y8-60q" firstAttribute="top" secondItem="8xo-kS-6PV" secondAttribute="bottom" constant="20" id="uIf-aw-bFl"/>
             </constraints>
             <point key="canvasLocation" x="32.5" y="52.5"/>
         </view>
